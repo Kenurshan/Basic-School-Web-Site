@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(206, 240, 56);
+    color: white;
+}
+
+.nav {
+  width: 100%;
+  background-color: rgb(206, 240, 56);
+  overflow: auto;
+}
+
+.nav a {
+  float: left;
+  padding: 12px;
+  color: rgb(36, 221, 212);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #abbb19;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+
+
+.heading {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.img1{
+  border-radius: 50px;
+  border: 1px solid #aa6204;
+  padding: 0;
+  max-width: auto;
+  height:auto;
+  float:left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.evt{
+  border: 1px solid #aa6204;
+}
+.his{
+  border: 1px solid #aa6204;
+  color:rgb(177, 10, 10);
+  padding:20px;
+}
+
+.img2{
+  border-radius: 50%;
+  border: 1px solid #aa6204;
+  padding: 0;
+  width: 250px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+/*Animation for all images*/
+img {
+  -webkit-transition:-webkit-filter 1s
+}
+img:hover {
+  -webkit-filter:grayscale(100%);
+  -moz-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+table {
+  border:5px solid black;
+} 
+th, td {
+  border:5px solid black;
+  padding: 20px;
+}
+
+
+.col {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.his::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.fa {
+  padding: 20px;
+  width: 300px;
+  font-size: 30px;  
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
